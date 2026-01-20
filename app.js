@@ -4,7 +4,7 @@ tg.ready();
 // ТВОИ БРЕЛКИ (меняй названия, цены, фото)
 const products = [
   { id: 1, name: "W68HP", price: 700, img: "https://placekitten.com/400/250" },
-  { id: 2, name: "KW9J", price: 500, img: "https://via.placeholder.com/400x250" },
+  { id: 2, name: "KW9J", price: 500, img: "images/бел мал.png" },
   { id: 3, name: "QH1", price: 600, img: "https://via.placeholder.com/400x250" },
   { id: 4, name: "Череп", price: 550, img: "https://via.placeholder.com/400x250" },
   { id: 5, name: "Аниме", price: 600, img: "https://via.placeholder.com/400x250" },
@@ -58,4 +58,5 @@ document.getElementById("orderBtn").onclick = () => {
         `Заказ от ${user.first_name}\n\n${order}`
     );
 };
+
 
