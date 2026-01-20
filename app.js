@@ -4,7 +4,7 @@ tg.ready();
 // ТВОИ БРЕЛКИ (меняй названия, цены, фото)
 const products = [
   { id: 1, name: "W68HP", price: 700, img: "https://raw.githubusercontent.com/Elaanych/keychain-shop/main/images/бел норм.png" },
-  { id: 2, name: "KW9J", price: 500, img: "images/бел мал.png" },
+  { id: 2, name: "KW9J", price: 500, img: "https://raw.githubusercontent.com/Elaanych/keychain-shop/main/images/бел мал.png" },
   { id: 3, name: "QH1", price: 600, img: "https://via.placeholder.com/400x250" },
   { id: 4, name: "KY2HT", price: 550, img: "https://via.placeholder.com/400x250" },
   { id: 5, name: "TSJ0D", price: 600, img: "https://via.placeholder.com/400x250" },
@@ -58,6 +58,7 @@ document.getElementById("orderBtn").onclick = () => {
         `Заказ от ${user.first_name}\n\n${order}`
     );
 };
+
 
 
 
